@@ -180,3 +180,8 @@ qplot(x = interval, y = steps, data = activityData2, geom = "smooth", stat = "su
 
 ```
 
+
+note: to create md files with figures so that these can be pushed to github follow these steps:
+
+1. Set working directory to hold the required files & folder
+2. the run " knit2html("PA1_template.Rmd") " in console of Rstudio which creates md file with figures folder.

@@ -2,7 +2,7 @@
 title: "PeerAssignment1_Reproducible Research_coursera"
 author: "Nishant Upadhyay"
 date: "Saturday, December 13, 2014"
-output: html_document
+output: pdf_document
 ---
 
 Reproducible Research: Peer Assignment 1
@@ -275,3 +275,8 @@ qplot(x = interval, y = steps, data = activityData2, geom = "smooth", stat = "su
 
 ![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png) 
 
+
+note: to create md files with figures so that these can be pushed to github follow these steps:
+
+1. Set working directory to hold the required files & folder
+2. the run " knit2html("PA1_template.Rmd") " in console of Rstudio which creates md file with figures folder.
